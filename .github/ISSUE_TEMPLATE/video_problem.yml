@@ -1,0 +1,55 @@
+name: 🎬 Проблема с видео
+description: Серия не играет, нет нужной озвучки, не та серия, плохое качество
+title: "[Видео] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Скинь ссылку на серию, так мы сразу найдём, что сломалось.
+  - type: input
+    id: link
+    attributes:
+      label: Ссылка на серию или название аниме
+      placeholder: https://senku.one/watch/52991/1
+    validations:
+      required: true
+  - type: input
+    id: episode
+    attributes:
+      label: Номер серии
+      placeholder: "5"
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Что не так?
+      options:
+        - Видео не запускается или бесконечно грузится
+        - Нет нужной озвучки или субтитров
+        - Играет не та серия или не то аниме
+        - Видео тормозит или постоянно останавливается
+        - Плохое качество, нет 1080p или 4K
+        - Нет звука
+        - Другое
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Где смотришь?
+      options:
+        - Android (телефон или планшет)
+        - Android TV
+        - Windows
+        - Сайт senku.one
+    validations:
+      required: true
+  - type: input
+    id: voice
+    attributes:
+      label: Озвучка и качество
+      placeholder: например, AniLibria, 1080p
+  - type: textarea
+    id: details
+    attributes:
+      label: Подробности
+      description: Текст ошибки на экране, скриншот, в какое время проблема была

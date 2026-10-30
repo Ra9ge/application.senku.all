@@ -1,0 +1,29 @@
+name: 💡 Предложить идею
+description: Чего не хватает в приложениях или на сайте
+title: "[Идея] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Для чего идея?
+      multiple: true
+      options:
+        - Android (телефон или планшет)
+        - Android TV
+        - Windows
+        - Сайт senku.one
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что хочется?
+      description: Опиши идею. Можно приложить картинку или пример из другого сервиса
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Зачем это нужно?
+      description: Какую проблему решит или чем станет удобнее

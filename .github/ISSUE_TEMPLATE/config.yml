@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Telegram канал Senku
+    url: https://t.me/Senkuone
+    about: Новости, обновления и быстрые вопросы
+  - name: Скачать приложения
+    url: https://senku.one/download
+    about: Последние версии для Android, Android TV и Windows

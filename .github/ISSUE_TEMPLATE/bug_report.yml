@@ -1,0 +1,66 @@
+name: 🐞 Сообщить об ошибке
+description: Что-то не работает, вылетает, не грузится или выглядит неправильно
+title: "[Ошибка] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо, что пишешь! Чем подробнее опишешь, тем быстрее починим.
+        Если проблема с конкретной серией (не играет, нет озвучки), лучше выбери форму **«Проблема с видео»**.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Где проблема?
+      options:
+        - Android (телефон или планшет)
+        - Android TV
+        - Windows
+        - Сайт senku.one
+        - Везде
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия приложения
+      description: Android и Windows показывают версию в настройках. Для сайта можно не заполнять
+      placeholder: например, 1.2.6
+  - type: input
+    id: device
+    attributes:
+      label: Устройство и система
+      placeholder: например, Xiaomi Redmi Note 12, Android 13 / Windows 11 / Chrome на ПК
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось?
+      description: Опиши проблему своими словами
+      placeholder: Нажимаю «Смотреть», и приложение закрывается
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как повторить
+      description: По шагам, что нужно сделать, чтобы проблема появилась
+      placeholder: |
+        1. Открыть страницу аниме
+        2. Нажать «Смотреть»
+        3. ...
+  - type: textarea
+    id: expected
+    attributes:
+      label: Как должно было быть?
+  - type: textarea
+    id: media
+    attributes:
+      label: Скриншоты или видео
+      description: Перетащи файлы сюда. Это очень помогает
+  - type: input
+    id: nick
+    attributes:
+      label: Ник на Senku
+      description: Необязательно. Поможет, если проблема связана с аккаунтом (монеты, карточки, достижения)
