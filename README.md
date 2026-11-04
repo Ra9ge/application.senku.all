@@ -32,13 +32,13 @@
   </tr>
   <tr>
     <td align="center"><a href="https://storage.senku.one/mobile/Senku-Anime.apk"><img src="https://img.shields.io/badge/Скачать_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Скачать для Android"></a></td>
-    <td align="center"><a href="https://senku.one/downloads/SenkuTv-0.3.1.apk"><img src="https://img.shields.io/badge/Скачать_APK-3DDC84?style=for-the-badge&logo=androidtv&logoColor=white" alt="Скачать для Android TV"></a></td>
+    <td align="center"><a href="https://senku.one/downloads/SenkuTv-0.4.0.apk"><img src="https://img.shields.io/badge/Скачать_APK-3DDC84?style=for-the-badge&logo=androidtv&logoColor=white" alt="Скачать для Android TV"></a></td>
     <td align="center"><a href="https://senku.one/api/v2/app/desktop/setup"><img src="https://img.shields.io/badge/Скачать_EXE-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Скачать для Windows"></a></td>
     <td align="center"><a href="https://senku.one"><img src="https://img.shields.io/badge/Открыть-e5484d?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Открыть сайт"></a></td>
   </tr>
   <tr>
     <td align="center"><sub>версия 1.2.6</sub></td>
-    <td align="center"><sub>версия 0.3.1</sub></td>
+    <td align="center"><sub>версия 0.4.0</sub></td>
     <td align="center"><sub>версия 0.2.33</sub></td>
     <td align="center"><sub>всегда свежий</sub></td>
   </tr>
@@ -88,6 +88,7 @@
 - **Удобный плеер:** озвучка, качество и скорость переключаются прямо с пульта, кнопка вниз открывает список серий
 - **Отметки просмотренного:** сразу видно, какие серии уже посмотрены и где ты остановился
 - **Продолжить просмотр** с того места, где остановился на телефоне или компьютере
+- **Обновляется само:** когда выходит новая версия, приложение предложит её скачать и установить
 
 <details>
 <summary><b>Как установить на телевизор</b></summary>
@@ -99,13 +100,13 @@
 4. Открой скачанный файл и установи
 
 **Способ 2. Через флешку**
-1. Скачай **SenkuTv-0.3.1.apk** на компьютер
+1. Скачай **SenkuTv-0.4.0.apk** на компьютер
 2. Скинь файл на флешку и вставь её в телевизор или приставку
 3. Открой файл через любой файловый менеджер (например, «Файлы» или X-plore) и установи
 
 **Способ 3. Через Downloader**
 1. Установи приложение **Downloader** из Google Play на телевизоре
-2. Введи адрес `senku.one/downloads/SenkuTv-0.3.1.apk`
+2. Введи адрес `senku.one/downloads/SenkuTv-0.4.0.apk`
 3. После скачивания нажми **«Установить»**
 
 </details>
@@ -194,7 +195,7 @@
 <details>
 <summary><b>Как обновить приложение?</b></summary>
 
-Android и Windows проверяют обновления сами при запуске. Для Android TV скачай новый APK со страницы [senku.one/download](https://senku.one/download) и установи поверх старого, всё сохранится.
+Android и Windows проверяют обновления сами при запуске. С версии 0.4.0 Android TV тоже обновляется само. Если у тебя версия старше, один раз скачай новый APK со страницы [senku.one/download](https://senku.one/download) и установи поверх старого, всё сохранится.
 </details>
 
 <details>
