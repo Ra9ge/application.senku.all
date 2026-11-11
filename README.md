@@ -39,7 +39,7 @@
   <tr>
     <td align="center"><sub>версия 1.2.6</sub></td>
     <td align="center"><sub>версия 0.5.1</sub></td>
-    <td align="center"><sub>версия 0.2.33</sub></td>
+    <td align="center"><sub>версия 0.2.38</sub></td>
     <td align="center"><sub>всегда свежий</sub></td>
   </tr>
 </table>
